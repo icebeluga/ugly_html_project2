@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+h1 {
+    color: #feca06;
+    text-align: center;
+    background-color: #2f549b;
+}
+
+.introduction, .list{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/*Pokemon Cards*/
+.each_pokemon_container{
+    text-align: center;
+}
+
+#starters_image_div {
+    text-align: center;
+    box-sizing: border-box;
+    width: 420px;
+    border: 5px solid #2f549b;
+    margin:auto;
+}
+
+.pokemon_images{
+    max-width: 100px;
+}
+
+#bulbasaur_container{
+    background-color:#8cc48e;
+    outline: 3px solid #fdefa7;
+    border-radius: 10px;
+    padding:2px
+}
+#charmander_container{
+    background-color:#f3b284;
+    outline: 3px solid #fdefa7;
+    border-radius: 10px;
+    padding:2px;
+}
+
+#squirtle_container{
+    background-color:#8ec4ce;
+    outline: 3px solid #fdefa7;
+    border-radius: 10px;
+    padding: 2px;
+}
